@@ -4,6 +4,7 @@ import Trend from '../components/Trending'
 import Card from '../components/Card'
 import Discover from '../components/Discover'
 import TopRating from '../components/TopRate'
+// import TopRating from '../components/TopRate'
 
 const Home = () => {
   return (
@@ -12,8 +13,9 @@ const Home = () => {
         <div className='flex'>
           <div className='block'>
             <Discover />
-            <Trend />
             {/* <TopRating /> */}
+            <Trend />
+            {/* <Card /> */}
           </div>
         </div>        
     </div>
