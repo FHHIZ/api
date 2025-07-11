@@ -2,7 +2,7 @@ import React from 'react'
 
 const Discover = () => {
   return (
-    <div className='w-[100vw]'>
+    <div className='w-[99vw]'>
         <button className="btn btn-outline m-4">All</button>
         <button className="btn btn-outline m-4">Action</button>
         <button className="btn btn-outline m-4">Horror</button>

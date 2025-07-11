@@ -1,10 +1,7 @@
-import React from 'react'
-import Navbar from '../components/Navbar'
-import Trend from '../components/Trending'
-import Card from '../components/Card'
-import Discover from '../components/Discover'
-import TopRating from '../components/TopRate'
-// import TopRating from '../components/TopRate'
+import Discover from "../components/Discover"
+import Navbar from "../components/Navbar"
+import Trending from "../components/Trending"
+
 
 const Home = () => {
   return (
@@ -13,9 +10,7 @@ const Home = () => {
         <div className='flex'>
           <div className='block'>
             <Discover />
-            {/* <TopRating /> */}
-            <Trend />
-            {/* <Card /> */}
+            <Trending />
           </div>
         </div>        
     </div>

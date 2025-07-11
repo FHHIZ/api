@@ -17,10 +17,10 @@ interface Movie {
   page: number;
   total_pages: number;
   total_results: number;
-  results: MuvieResult[];
+  results: MovieResult[];
 }
 
-interface MuvieResult {
+interface MovieResult {
   backdrop_path: string;
   id: number;
   original_title: string;
@@ -32,7 +32,7 @@ const movieApi = {
   getMovie: () =>
     instance({
       method: "GET",
-      url: "3/movie/popular?api_key=5f8c7d0e1c2a4b6f9d8e1c2a4b6f9d8e&language=en-US&page=1",
+      url: "3/movie/popular?=5f8c7d0e1c2a4b6f9d8e1c2a4b6f9d8e&language=en-US&page=1",
     }),
 };
 

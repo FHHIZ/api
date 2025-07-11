@@ -1,7 +1,7 @@
-import React from 'react'
-import { Button2 } from './ui/Button'
-import { useNavigate } from 'react-router-dom'
-import { listed } from '../constant/listed';
+// import React from 'react'
+// import { Button2 } from './ui/Button'
+// import { useNavigate } from 'react-router-dom'
+// import { listed } from '../constant/listed';
 
 const TopRating = () => {
   return (
@@ -11,7 +11,7 @@ const TopRating = () => {
             <div className="carousel-item m-10 block">
             <img
                 src="https://www.gamesradar.com/entertainment/superhero-movies/deadpool-and-wolverine-total-film-exclusive-cover-reveal/"
-                className="rounded-box w-66 h-99" />
+                className="rounded-box w-66 h-60" />
             </div>
             <div className="carousel-item m-10 block">
             <img
